@@ -1,0 +1,10 @@
+data/BusyParkingLotDataset.rar
+data/2020-03-19-08-00-00_scene_0013_BB_write.avi
+data/data_file.txt
+data/parking_rois_gopro.zip
+ParkOccupancy.egg-info/
+src/config/__pycache__/
+data/BusyParkingLotDataset/
+src/application/__pycache__
+src/domain/__pycache__/
+data/parking_rois_gopro/
