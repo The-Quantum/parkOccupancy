@@ -1,6 +1,6 @@
 import argparse
 from src.config import config
-from src.domain.generate_condinates import show_img, CoordinateGenerator
+from src.domain.generate_coordinates import CoordinateGenerator
 
 def parse_args():
 
@@ -19,13 +19,9 @@ def parse_args():
 def main() :
 
     args = parse_args()
-    #show_img(args.image_path)
 
     Generator = CoordinateGenerator(args.image_path)
     Generator.generate_coordinate()
 
 if __name__ == "__main__" :
     main()
-    #args = parse_args()
-    #Generator = CoordinateGenerator(args.image_path)
-    #Generator.generate_coordinate()

@@ -18,3 +18,11 @@ coordinate_file = path.join(
 data_file_path = path.join(
     PRESENT_DIR, "../../data/data_file.txt"
 )
+
+camera_image_view_path = path.join(
+    PRESENT_DIR, "../../data/IMG_20250711_163748.jpg" #"../../data/camera_image_view.png"
+)
+
+bird_view_path = path.join(
+    PRESENT_DIR, "../../data/IMG_20250711_163552.jpg" #, ../../data/field_to_view.png"
+)

@@ -8,3 +8,8 @@ data/BusyParkingLotDataset/
 src/application/__pycache__
 src/domain/__pycache__/
 data/parking_rois_gopro/
+data/*.jpg
+data/*.png
+data/*.avi
+data/*.zip
+data/*.rar
