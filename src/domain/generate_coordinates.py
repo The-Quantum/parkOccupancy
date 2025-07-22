@@ -3,31 +3,6 @@ import sys
 import numpy as np
 from src.config.config import coordinate_file
 
-def draw_circle(envent, x, y, img, flags, param):
-
-    if envent == cv2.EVENT_LBUTTONDBLCLK :
-        cv2.circle(img, (x, y), 100, 0, 0, -1)
-
-def show_img(image_path:str) :
-
-    try :
-        img = cv2.imread(image_path)
-    except Exception as e:
-        print(f"""The image : {image_path} not found or failed to load.
-            The following exception {e}. This has made the application 
-            to stop. Please provide the right image path and run the 
-            application again."""
-        )
-        sys.exit(0)
-
-    while True :
-
-        cv2.imshow("Parking frame", img) 
-        if cv2.waitKey(500) == ord("q") :
-            break
-    
-    cv2.destroyAllWindows()
-
 class CoordinateGenerator :
     
     KEY_QUIT = ord("q")
