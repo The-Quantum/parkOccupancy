@@ -15,6 +15,10 @@ coordinate_file = path.join(
     PRESENT_DIR, "../../data/parking_place_coordinates.json"
 )
 
+points_correspondance_file = path.join(
+    PRESENT_DIR, "../../data/parking_points_correspondance.json"
+)
+
 data_file_path = path.join(
     PRESENT_DIR, "../../data/data_file.txt"
 )

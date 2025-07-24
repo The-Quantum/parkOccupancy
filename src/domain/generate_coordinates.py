@@ -1,5 +1,4 @@
 import cv2
-import sys
 import numpy as np
 from src.config.config import coordinate_file
 
@@ -31,7 +30,6 @@ class CoordinateGenerator :
     def generate_coordinate(self) :
 
         cv2.namedWindow(self.window_name, cv2.WINDOW_NORMAL) #cv2.WINDOW_GUI_EXPANDED)
-        #cv2.setMouseCallback(self.window_name, self._mouse_callback)
 
         while self.FRAME_OPEN :
 
